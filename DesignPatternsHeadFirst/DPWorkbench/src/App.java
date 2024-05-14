@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         // System.out.println("Hello, Malik!");
         // chp 1
-        MiniDuckSimulator duckSimulator = new MiniDuckSimulator();
-        duckSimulator.run();
+        // MiniDuckSimulator duckSimulator = new MiniDuckSimulator();
+        // duckSimulator.run();
 
         // chp 2
         WeatherStation weatherStation = new WeatherStation();
