@@ -27,7 +27,11 @@ public class WeatherData implements ISubject {
 
     public void notifyObservers() {
         for (IObserver observer : observers) {
-            observer.update(temperature, humidity, pressure);
+            // pushing data to all observers
+            // observer.update(temperature, humidity, pressure);
+
+            // pulling the values
+            observer.update();
         }
     }
 
@@ -41,4 +45,13 @@ public class WeatherData implements ISubject {
         this.pressure = pressure;
         measurementsChanged();
     }
+
+    public float getTemperature() {
+        return this.temperature;
+    }
+
+    public float getHumidity() {
+        return this.humidity;
+    }
+
 }

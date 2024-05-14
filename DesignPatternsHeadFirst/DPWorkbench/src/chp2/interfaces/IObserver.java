@@ -1,5 +1,9 @@
 package chp2.interfaces;
 
 public interface IObserver {
-    public void update(float temp, float humidity, float pressure);
+    // for pushing data from subject to observer
+    // public void update(float temp, float humidity, float pressure);
+
+    // pulling data
+    public void update();
 }

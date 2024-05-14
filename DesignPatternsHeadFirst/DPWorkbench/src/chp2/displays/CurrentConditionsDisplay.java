@@ -1,5 +1,6 @@
-package chp2;
+package chp2.displays;
 
+import chp2.WeatherData;
 import chp2.interfaces.IDisplayElement;
 import chp2.interfaces.IObserver;
 
@@ -13,9 +14,10 @@ public class CurrentConditionsDisplay implements IObserver, IDisplayElement {
         weatherData.registerObserver(this);
     }
 
-    public void update(float temperature, float humidity, float pressure) {
-        this.temperature = temperature;
-        this.humidity = humidity;
+    // public void update(float temperature, float humidity, float pressure) {
+    public void update() {
+        this.temperature = weatherData.getTemperature();
+        this.humidity = weatherData.getHumidity();
         display();
     }
 

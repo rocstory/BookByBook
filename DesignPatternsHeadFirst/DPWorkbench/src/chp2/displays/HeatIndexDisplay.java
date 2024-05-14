@@ -1,6 +1,7 @@
 // Sharpen Your Pencil - Heat Index display p.62
-package chp2;
+package chp2.displays;
 
+import chp2.WeatherData;
 import chp2.interfaces.IDisplayElement;
 import chp2.interfaces.IObserver;
 
@@ -18,8 +19,12 @@ public class HeatIndexDisplay implements IDisplayElement, IObserver {
 
     }
 
-    public void update(float temperature, float humidity, float pressure) {
-        this.heatIndex = temperature + 1000; // add humidity equation here
+    // data being pushed from observer
+    // public void update(float temperature, float humidity, float pressure) {
+    // pulling data from subject
+    public void update() {
+        float temperature = weatherData.getTemperature();
+        this.heatIndex = temperature + 1000; // some fake equation for heat
         display();
     }
 
