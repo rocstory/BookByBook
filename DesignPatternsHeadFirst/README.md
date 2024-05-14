@@ -19,4 +19,7 @@ Defines a family of algorithms, cencapsulates each one, and make them interchang
 ## Chapter 02 - Observer
 Defines a one to many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
+- Subjects and Observers are loosely coupled
+- Pulling data from Subject to Observers is the more "correct" approach
+
 
