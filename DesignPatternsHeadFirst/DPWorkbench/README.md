@@ -1,18 +1,21 @@
-## Getting Started
+# Book By Book
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## OO Basics
+- Abstraction
+- Encapsulate 
+- Polymorphism
+- Inheritance
 
-The workspace contains two folders by default, where:
+## OO Principles
+- Encapsulate what varies
+- Favor composition over inheritance
+- Program to interfaces, not implementations
+- Strive for loosely coupled designs between objects that interact
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Chapter 01 - Strategy
+Defines a family of algorithms, cencapsulates each one, and make them interchangeable. Strategy lets the algorithm vary indepeendently from clients that use it.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Chapter 02 - Observer
+Defines a one to many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
