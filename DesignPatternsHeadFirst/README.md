@@ -13,6 +13,8 @@
 * Favor composition over inheritance
 * Program to interfaces, not implementations
 * Strive for loosely coupled designs between objects that interact
+* Classes should be OPEN for extension but CLOSED for modification
+* Depend upon abstractions. Do not depend upon concrete classes. ( Dependency Inversion Principal )
 
 ## Chapter 01 - Strategy
 
@@ -32,15 +34,43 @@ Attaches additional responsibilities to an object dynamically. Decorators provid
 * The decorator adds its own behavior before and or after delegating to the object it decorates to do the rest of the job.
 * Decorator classes mirror the type of the components they decorate.
 
-## Chapter 04 - Factory Pattern
+## Chapter 04 - Factory Pattern & Abstract Pattern
 
+* both encapsulate object creation to keep applications loosely coupled and less dependent on implementations.
+
+Do you have families of products you need to create and you want to make sure your clients create products that belong togehter?
+* Use the abstract method
+
+Do you not know ahead of time all the concrete classes you are going to need?
+* Use the factory method
+
+### Factory Pattern
+Defines an interface for creating an object, but lets subclasses decide which class to instantiate. The method lets a class defer instantiation to subclasses.
+
+* Creates objects through inheritance
+* All factory patterns encapsulate object creation.
+* Encapsulates object creation by letting sublcasses decide what objects to create. 
+
+#### Terms
 * Client - What interacts with the factory to get the Product
 * Factory - where the product is created
 * Product - The interface of the product
 * Concrete Product - Specific classes of the product
 
-### Simple Factory
-
+#### Simple Factory
 * Isn't actually a design pattern. It is more of a programming idiom.
-* Factory:
-    * 
+
+    < Insert Image of simple factory here >
+
+#### Avoid violating the Dependency Inversion Principle
+* No variable should hold a reference to a concrete class
+* No class should derive from a concrete class
+* No method should override an implementation method of any of its base classes
+
+### Abstract Factory Pattern
+Provides an tnterface for creating families of RELATED or DEPENDENT objects without specifying their concrete classses.
+
+
+* Creates objects through composition 
+* Group together a set of related products
+* Interface has to change if new products are added 
