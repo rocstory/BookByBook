@@ -1,5 +1,6 @@
 import chp1.MiniDuckSimulator;
 import chp2.WeatherStation;
+import chp3.DecoratorMain;
 import chp3.StarbuzzCoffee;
 
 public class App {
@@ -14,8 +15,8 @@ public class App {
         // weatherStation.run();
 
         // chp 3
-        StarbuzzCoffee sbCoffee = new StarbuzzCoffee();
-        sbCoffee.run();
+        DecoratorMain decoratorMain = new DecoratorMain();
+        decoratorMain.run();
 
     }
 }
