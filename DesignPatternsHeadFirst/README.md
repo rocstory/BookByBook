@@ -13,7 +13,7 @@
 * Favor composition over inheritance
 * Program to interfaces, not implementations
 * Strive for loosely coupled designs between objects that interact
-* Classes should be OPEN for extension but CLOSED for modification
+* Classes should be OPEN for extension but CLOSED for modification ( Open-Closed Principle )
 * Depend upon abstractions. Do not depend upon concrete classes. ( Dependency Inversion Principal )
 
 ## Chapter 01 - Strategy
