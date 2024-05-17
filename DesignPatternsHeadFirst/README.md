@@ -33,6 +33,8 @@ Attaches additional responsibilities to an object dynamically. Decorators provid
 
 * The decorator adds its own behavior before and or after delegating to the object it decorates to do the rest of the job.
 * Decorator classes mirror the type of the components they decorate.
+* The Decorator Pattern provides an altrenative to subclassing for extending behavior.
+* Decorators can result in many small objects in our design, and overuse can be complex.
 
 ## Chapter 04 - Factory Pattern & Abstract Pattern
 
@@ -74,3 +76,9 @@ Provides an tnterface for creating families of RELATED or DEPENDENT objects with
 * Creates objects through composition 
 * Group together a set of related products
 * Interface has to change if new products are added 
+
+
+## Resources
+
+### Book Resources
+https://wickedlysmart.com/head-first-design-patterns/
