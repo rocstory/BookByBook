@@ -15,8 +15,8 @@ public class App {
         // weatherStation.run();
 
         // chp 3
-        DecoratorMain decoratorMain = new DecoratorMain();
-        decoratorMain.run();
+        // DecoratorMain decoratorMain = new DecoratorMain();
+        // decoratorMain.run();
 
     }
 }
