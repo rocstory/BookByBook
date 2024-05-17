@@ -1,5 +1,6 @@
 import chp1.MiniDuckSimulator;
 import chp2.WeatherStation;
+import chp3.StarbuzzCoffee;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -9,8 +10,12 @@ public class App {
         // duckSimulator.run();
 
         // chp 2
-        WeatherStation weatherStation = new WeatherStation();
-        weatherStation.run();
+        // WeatherStation weatherStation = new WeatherStation();
+        // weatherStation.run();
+
+        // chp 3
+        StarbuzzCoffee sbCoffee = new StarbuzzCoffee();
+        sbCoffee.run();
 
     }
 }
