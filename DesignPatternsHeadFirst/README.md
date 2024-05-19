@@ -77,8 +77,15 @@ Provides an tnterface for creating families of RELATED or DEPENDENT objects with
 * Group together a set of related products
 * Interface has to change if new products are added 
 
+## Questions
+1. Why do we use interfaces instead of abstract classses and vise versa?
+
+We use interfaces only to describe an object. 
+Abstract classes describe the object and set base functionality for subclasses to inherit.
 
 ## Resources
 
 ### Book Resources
 https://wickedlysmart.com/head-first-design-patterns/
+
+
