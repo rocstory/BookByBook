@@ -95,6 +95,11 @@ Ensures a class has only one instance, and provides a global point of access to 
 ## Chapter 06 - Command Pattern
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
+### Key Terms
+* Invoker
+* Receiver
+* Command
+
 
 ## Questions
 1. Why do we use interfaces instead of abstract classses and vise versa?
