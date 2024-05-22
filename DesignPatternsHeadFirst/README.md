@@ -77,7 +77,7 @@ Provides an tnterface for creating families of RELATED or DEPENDENT objects with
 * Group together a set of related products
 * Interface has to change if new products are added 
 
-## Singleton Principle
+## Chapter 05 - Singleton Principle
 Ensures a class has only one instance, and provides a global point of access to it.
 
 * Has no public constructor
@@ -91,6 +91,9 @@ Ensures a class has only one instance, and provides a global point of access to 
 2. Eager approach
 3. Double-checked locking approach
 
+** Note to self: Dont over think this DP **
+## Chapter 06 - Command Pattern
+Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
 
 ## Questions

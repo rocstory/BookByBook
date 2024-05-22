@@ -2,6 +2,7 @@ import chp1.MiniDuckSimulator;
 import chp2.WeatherStation;
 import chp3.DecoratorMain;
 import chp3.StarbuzzCoffee;
+import chp6.CommandPatternMain;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -17,6 +18,14 @@ public class App {
         // chp 3
         // DecoratorMain decoratorMain = new DecoratorMain();
         // decoratorMain.run();
+
+        // chp4
+
+        // chp5
+
+        // chp6
+        CommandPatternMain commandPatternMain = new CommandPatternMain();
+        commandPatternMain.run();
 
     }
 }
