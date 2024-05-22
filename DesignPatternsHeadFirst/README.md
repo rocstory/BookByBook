@@ -77,6 +77,22 @@ Provides an tnterface for creating families of RELATED or DEPENDENT objects with
 * Group together a set of related products
 * Interface has to change if new products are added 
 
+## Singleton Principle
+Ensures a class has only one instance, and provides a global point of access to it.
+
+* Has no public constructor
+
+### Best used for:
+1. Thread pools
+2. Logging
+
+### Ways of implementing the Singleton Pattern
+1. Synchronized Approach
+2. Eager approach
+3. Double-checked locking approach
+
+
+
 ## Questions
 1. Why do we use interfaces instead of abstract classses and vise versa?
 
