@@ -1,7 +1,10 @@
 package chp6.remoteControl;
 
 public class GarageDoor {
-    public GarageDoor() {
+    String location;
+
+    public GarageDoor(String location) {
+        this.location = location;
     }
 
     public void up() {

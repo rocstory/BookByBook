@@ -95,8 +95,10 @@ Ensures a class has only one instance, and provides a global point of access to 
 ## Chapter 06 - Command Pattern
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
+Meta Command Pattern - Allows you to create macros of commands so that you can execute mutliple commands at once.
+
 ### Key Terms
-* Invoker
+* Invoker 
 * Receiver
 * Command
 
